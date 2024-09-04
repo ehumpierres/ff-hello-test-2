@@ -2,10 +2,10 @@
   "name": "hello-world-heroku",
   "version": "1.0.0",
   "description": "A simple Hello World app for Heroku",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "dependencies": {
     "express": "^4.19.2"
