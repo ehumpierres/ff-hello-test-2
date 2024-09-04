@@ -3,7 +3,7 @@
   "name": "hello-world-heroku",
   "version": "1.0.0",
   "description": "A simple Hello World app for Heroku",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "start": "node app.js"
   },
