@@ -1,12 +1,15 @@
 {
-  "name": "hello-world",
+  "name": "hello-world-heroku",
   "version": "1.0.0",
-  "description": "Hello World app",
-  "main": "index.js",
+  "description": "A simple Hello World app for Heroku",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "dependencies": {
-    "http": "^0.0.1-security"
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
